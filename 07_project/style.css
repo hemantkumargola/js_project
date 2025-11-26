@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.conterner {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 450px;
+    text-align: center;
+}
+
+.heading {
+    background-color: blue;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    font-size: 1.2rem;
+    font: bold;
+    margin-bottom: 10px;
+}
+
+.farenheit {
+    margin-bottom: 20px;
+}
