@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.conterner {
+    border: 2px solid black;
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 10px;
+    font-size: 1.5rem;
+    font: bold;
+}
+
+textarea {
+    height: 175px;
+    width: 375px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font: bold;
+    font-size: 2rem;
+}
+
+.output {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
