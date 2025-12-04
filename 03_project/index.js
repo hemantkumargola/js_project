@@ -17,7 +17,7 @@ const quiz = [{
     {
         question: "Q. Which keyword is used to declare a constant in JavaScript?",
         choices: ["var", "let", "const", "constant"],
-        answer: "const"
+        answer: "constant"
     },
     {
         question: "Q. Which of the following is NOT a JavaScript data type?",
